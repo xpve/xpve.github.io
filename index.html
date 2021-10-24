@@ -2,16 +2,13 @@
 <html>
   <head>
     <title>xpve - GitHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    
   </head>
   <body>
     <video autoplay loop class="video">
@@ -20,21 +17,26 @@
         type="video/mp4"
       />
     </video>
-
-    <div class="menu">
-      <div class="leftmenu">
-        <h4>xpve</h4>
+    <nav>
+      <div class="logo">
+        <h3>
+          <a href="#">xpve</a>
+        </h3>
       </div>
 
-      <div class="rightmenu">
-        <ul>
-          <li id="fisrtlist">HOME</li>
-          <li>About us</li>
-          <li>Blogs</li>
-          <li>contact</li>
-        </ul>
+      <ul class="nav-links">
+        <li id="fisrtlist"><a href="#">Home</a></li>
+        <li id="fisrtlist"><a href="#">About</a></li>
+        <li id="fisrtlist"><a href="#">Blog</a></li>
+        <li id="fisrtlist"><a href="#">Contact</a></li>
+      </ul>
+
+      <div id="burger-button" class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-    </div>
+    </nav>
 
     <div class="text">
       <h4>Our GitHub Repo</h4>
@@ -42,6 +44,9 @@
       <h3>The Linux Developers</h3>
       <button id="buttonone">Explore</button>
     </div>
+
+    <footer></footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
-
