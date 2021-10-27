@@ -2,6 +2,14 @@
 <html>
   <head>
     <title>xpve - GitHub</title>
+    <link rel="shortcut icon" href="./linux-tux-1.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,18 +25,27 @@
         type="video/mp4"
       />
     </video>
+
     <nav>
+      <a href="#"> <img class="linux" src="./linux-tux-1.svg" /></a>
       <div class="logo">
         <h3>
           <a href="https://github.com/xpve/">XPVE</a>
         </h3>
       </div>
-
       <ul class="nav-links">
+
+        <li id="fisrtlist"><a href="#">Home</a></li>
+        <li id="fisrtlist"><a href="#">About</a></li>
+        <li id="fisrtlist"><a href="#">Blog</a></li>
+        <li id="fisrtlist"><a href="#project">Projects</a></li>
+        <li id="fisrtlist"><a href="#contact">Contact</a></li>
+
         <li id="fisrtlist"><a href="index.html">Home</a></li>
         <li id="fisrtlist"><a href="about.html">About</a></li>
         <li id="fisrtlist"><a href="blog.html">Blog</a></li>
         <li id="fisrtlist"><a href="contact.html">Contact</a></li>
+
       </ul>
 
       <div id="burger-button" class="burger">
@@ -45,7 +62,24 @@
       <button id="buttonone"><a href="https://github.com/xpve/">Explore</button></a>
     </div>
 
-    <footer></footer>
+    <footer>
+      <div id="contact" class="footer-content">
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2021 xpve</p>
+      </div>
+    </footer>
 
     <script src="app.js"></script>
   </body>
